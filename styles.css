@@ -1,1 +1,145 @@
-styles test
+body {
+    border-radius: 50%;
+    background-color: #2D3647;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 30px 20px 30px;
+}
+
+.logo-container {
+    flex: 0 0 30 px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2D3647;
+    max-width: 30%;
+}
+
+.logo-container:hover {
+    background-color: #EEF0F7;
+}
+
+.logo-container img {
+    max-width: 100%;
+    align-items: center;
+}
+
+.hamburger-menu {
+    margin-left: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: #2D3647;
+    color: #47505F;
+    font-size: 1.5rem;
+}
+
+.hamburger-menu:hover {
+    background-color: #717D96;
+    color: white;
+}
+
+.hero {
+    background-color: #EEF0F7;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-color: black;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-icon-row img {
+    margin: -10px 5px 5px;
+    padding: 10px 10px;
+}
+
+.hero p {
+    margin-top: 40px;
+}
+
+.hero-button-row button {
+    margin: 20px 5px 0;
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.hero-button-1 {
+    background-color: #2D3647;
+    color: white;
+}
+
+.hero-button-1:hover {
+    background-color: transparent;
+    color: #2D3647;
+}
+
+.hero-button-2 {
+    background-color: transparent;
+    color: #2D3647;
+}
+
+.hero-button-2:hover {
+    background-color: #717D96;
+    color: white;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: FFFFFF;
+}
+
+.photo1 img {
+    max-width: 80%;
+    max-height: 100%;
+    border-radius: 10px;
+    border: 3px dashed #808080;
+    border-color: #CBD2E0;
+}
+
+.photo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #717D96;
+}
+
+.photo2 img {
+    max-width: 80%;
+    max-height: 100%;
+    border-radius: 10px;
+    border: 3px dashed #808080;
+    border-color: #CBD2E0;
+
+}
+
+footer {
+    background-color: #1A202C;
+    color: #FFFFFF;
+    padding: 20px 40px;
+}
+
+footer p {
+    margin: 40px 0;
+}
+
+.menu-items {
+    list-style: none;
+}
+
+.menu-items li {
+    margin: 30px 0;
+    margin-left: -40px;
+
+}
+
+.menu-items li:last-child {
+    margin: 0;
+    margin-left: -40px;
+}
